@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "font-1";
+  src: url("./assets/fonts/Sloops.TTF");
+}
+
+@font-face {
+  font-family: "font-2";
+  src: url("./assets/fonts/NeueHaasDisplayBold.ttf");
+}
+
+@font-face {
+  font-family: "font-3";
+  src: url("./assets/fonts/NeueHaasDisplayMediu.ttf");
+}
+@font-face {
+  font-family: "font-4";
+  src: url("./assets/fonts/NeueHaasDisplayThin.ttf");
+}
+@font-face {
+  font-family: "font-5";
+  src: url("./assets/fonts/NeueHaasDisplayRoman.ttf");
+}
