@@ -9,9 +9,9 @@ const Nav = () => {
            
                <div className=' hidden md:flex items-center justify-center'>
                <ul className='flex gap-x-8'>
-                    {navInfo.map((item)=>{
+                    {navInfo.map((item,index)=>{
                         return(
-                    <li className={` text-[15px] cursor-pointer font-["font-5"]  ${item=="Contact"?"pr-6 border-r-[1px] border-amber-50":""}`}>{item}</li>
+                    <li key={index} className={` text-[15px] cursor-pointer font-["font-5"]  ${item=="Contact"?"pr-6 border-r-[1px] border-amber-50":""}`}>{item}</li>
                         )
                     })}
                 </ul>
