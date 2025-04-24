@@ -14,7 +14,7 @@ const Shop = () => {
           <div className="flex flex-wrap max-[599px]:justify-center gap-4 lg:gap-x-10 group">
   {/* Shop Sites Button */}
   <div className="flex justify-center">
-    <button className="bg-[#D9D9D9] hover:bg-black hover:text-white px-9 py-2.5 rounded-full flex items-center  gap-4 max-[599px]:px-14 text-black ">
+    <button className="bg-[#D9D9D9] hover:bg-black hover:border hover:border-white hover:text-white px-9 py-2.5 rounded-full flex items-center  gap-4 max-[599px]:px-14 text-black ">
       <img
         className="w-6 max-[599px]:w-7 text-black group-hover:invert"
         src="./src/assets/Images/cartola_Logo.png"
